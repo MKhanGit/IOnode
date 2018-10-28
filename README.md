@@ -2,3 +2,7 @@
 A PCB project for a wireless relay node, used to control high voltage devices on a data pipeline.
 
 <img src="./IOnode_SVG/ionode.sch.svg">
+
+<img src="./IOnode_SVG/ionode-F.Cu.svg"> 
+
+<img src="./IOnode_SVG/ionode-B.Cu.svg">
