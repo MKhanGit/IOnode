@@ -1,8 +1,8 @@
 # IOnode Firmware
-The IOnode v1.1 PCB and firmware are designed based on the Atmega328p microcontroller. The firmware sets up a serial line on the chip's hardware Tx/Rx pins, which can be conntected directly to a TTL convertor or a serial Bluetooth module.
+The IOnode v1.1 PCB and firmware are designed based on the Atmega328p microcontroller. The firmware sets up a serial line on the chip's hardware Tx/Rx pins, which can be connected directly to a TTL convertor or a serial Bluetooth module.
 
 ## Serial Commands
-Below is a table of the Serial Commands implemented in this firmware. Once the board is programmed, any adequate serial adapter can pass and receive these commands from the device, given a baud rate of 9600.
+Below is a table of the Serial Commands implemented in this firmware. Once the board is programmed, any adequate serial adapter can pass these commands from the device and receive back responses, given a baud rate of 9600.
 
 Note, commands that target a specific output (from 0 to 9) must be followed by an integer index
 
