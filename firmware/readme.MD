@@ -10,10 +10,10 @@ Note, commands that target a specific output (0 to n) must be followed by an ind
 
 | Command 		 | Bytes to Send | Response                 |
 | ---------------------- | ------------- | -------- 	            |
-|Toggle output <n> 	 | T<    n    >		 | OK	    		    |
-|Force <n> High    	 | O<n>		 | OK	    		    |
-|Force <n> Low   	 | X<n>		 | OK	    		    |
-|Check <n> State 	 | I<n>		 | <state, 0 or 1>	    |
+|Toggle output <    n    >	 | T <    n    >		 | OK	    		    |
+|Force <    n    > High    	 | O<    n    >		 | OK	    		    |
+|Force <    n    > Low   	 | X<    n    >		 | OK	    		    |
+|Check <    n    > State 	 | I<    n    >	 | <    state, 0 or 1    >	    |
 |Ping Device (test)	 | P             | pong    		    |
 
 
